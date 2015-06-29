@@ -1,0 +1,49 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/bin/npm', 'restart', '--production' ]
+2 info using npm@2.11.3
+3 info using node@v0.10.38
+4 verbose node symlink /bin/node
+5 verbose run-script [ 'prerestart',
+5 verbose run-script   'prestop',
+5 verbose run-script   'stop',
+5 verbose run-script   'poststop',
+5 verbose run-script   'restart',
+5 verbose run-script   'prestart',
+5 verbose run-script   'start',
+5 verbose run-script   'poststart',
+5 verbose run-script   'postrestart' ]
+6 info prerestart ghost@0.6.4
+7 info prestop ghost@0.6.4
+8 info stop ghost@0.6.4
+9 info poststop ghost@0.6.4
+10 info restart ghost@0.6.4
+11 info prestart ghost@0.6.4
+12 info start ghost@0.6.4
+13 verbose unsafe-perm in lifecycle true
+14 info ghost@0.6.4 Failed to exec start script
+15 verbose stack Error: ghost@0.6.4 start: `node index`
+15 verbose stack Exit status 255
+15 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+15 verbose stack     at EventEmitter.emit (events.js:98:17)
+15 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+15 verbose stack     at ChildProcess.emit (events.js:98:17)
+15 verbose stack     at maybeClose (child_process.js:766:16)
+15 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:833:5)
+16 verbose pkgid ghost@0.6.4
+17 verbose cwd /home/wwwroot/ghost
+18 error Linux 3.10.0-229.4.2.el7.x86_64
+19 error argv "node" "/bin/npm" "restart" "--production"
+20 error node v0.10.38
+21 error npm  v2.11.3
+22 error code ELIFECYCLE
+23 error ghost@0.6.4 start: `node index`
+23 error Exit status 255
+24 error Failed at the ghost@0.6.4 start script 'node index'.
+24 error This is most likely a problem with the ghost package,
+24 error not with npm itself.
+24 error Tell the author that this fails on your system:
+24 error     node index
+24 error You can get their info via:
+24 error     npm owner ls ghost
+24 error There is likely additional logging output above.
+25 verbose exit [ 1, true ]
