@@ -471,6 +471,11 @@
           "resolved": "https://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz",
           "integrity": "sha1-sX0I0ya0Qj5Wjv9xn5GwscvfafE="
         },
+        "semver": {
+          "version": "4.3.6",
+          "resolved": "https://registry.npmjs.org/semver/-/semver-4.3.6.tgz",
+          "integrity": "sha512-IrpJ+yoG4EOH8DFWuVg+8H1kW1Oaof0Wxe7cPcXW3x9BjkN/eVo54F15LyqemnDIUYskQWr9qvl/RihmSy6+xQ=="
+        },
         "simple-extend": {
           "version": "0.1.0",
           "resolved": "https://registry.npmjs.org/simple-extend/-/simple-extend-0.1.0.tgz",
@@ -6284,6 +6289,12 @@
           "requires": {
             "path-parse": "^1.0.6"
           }
+        },
+        "semver": {
+          "version": "5.7.2",
+          "resolved": "https://registry.npmjs.org/semver/-/semver-5.7.2.tgz",
+          "integrity": "sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==",
+          "dev": true
         }
       }
     },
@@ -6313,6 +6324,12 @@
           "requires": {
             "wrappy": "1"
           }
+        },
+        "semver": {
+          "version": "4.3.6",
+          "resolved": "https://registry.npmjs.org/semver/-/semver-4.3.6.tgz",
+          "integrity": "sha512-IrpJ+yoG4EOH8DFWuVg+8H1kW1Oaof0Wxe7cPcXW3x9BjkN/eVo54F15LyqemnDIUYskQWr9qvl/RihmSy6+xQ==",
+          "dev": true
         }
       }
     },
@@ -6774,6 +6791,12 @@
               }
             }
           }
+        },
+        "semver": {
+          "version": "4.3.6",
+          "resolved": "https://registry.npmjs.org/semver/-/semver-4.3.6.tgz",
+          "integrity": "sha512-IrpJ+yoG4EOH8DFWuVg+8H1kW1Oaof0Wxe7cPcXW3x9BjkN/eVo54F15LyqemnDIUYskQWr9qvl/RihmSy6+xQ==",
+          "optional": true
         }
       }
     },
@@ -7270,9 +7293,9 @@
       "dev": true
     },
     "semver": {
-      "version": "4.3.3",
-      "resolved": "https://registry.npmjs.org/semver/-/semver-4.3.3.tgz",
-      "integrity": "sha1-FUZrYSILw3HNjw5map94Uynqgig="
+      "version": "6.3.1",
+      "resolved": "https://registry.npmjs.org/semver/-/semver-6.3.1.tgz",
+      "integrity": "sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA=="
     },
     "semver-diff": {
       "version": "0.1.0",
